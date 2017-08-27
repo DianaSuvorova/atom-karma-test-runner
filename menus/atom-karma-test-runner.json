@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run atom-karma-test-runner",
+        "command": "atom-karma-test-runner:run"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-karma-test-runner",
+          "submenu": [
+            {
+              "label": "Run",
+              "command": "atom-karma-test-runner:run"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

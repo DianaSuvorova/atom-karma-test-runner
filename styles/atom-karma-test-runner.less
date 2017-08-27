@@ -1,0 +1,30 @@
+.jasmine-test-runner {
+  max-height: 20rem;
+  overflow: auto;
+  text-shadow: none;
+  .heading {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+
+    span.close-icon {
+      flex: 0 0 auto;
+      font-size: 14px;
+      cursor: pointer;
+      &:hover {
+        color: grey;
+      }
+    }
+    span.state {
+      flex: 0 0 auto;
+      padding-right: 5px;
+    }
+    span.spec {
+      flex: 1 1 auto;
+    }
+  }
+}
