@@ -1,8 +1,8 @@
 ### Atom Karma test Runner
 
-Run karma tests directly from IDE. No additional server or setup needed.
+Run karma tests directly from Atom IDE. No additional server or setup needed.
 
-![preview](http://g.recordit.co/8WLaiuDw7C.gif)
+![preview](http://recordit.co/UhX0YlkFq7.gif)
 
 ## Set up
 - Install Package via Atom Package installer
