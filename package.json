@@ -11,7 +11,7 @@
   "activationCommands": {
     "atom-workspace": "atom-karma-test-runner:run"
   },
-  "repository": "https://github.com/atom/atom-karma-test-runner",
+  "repository": "https://github.com/DianaSuvorova/atom-karma-test-runner",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
