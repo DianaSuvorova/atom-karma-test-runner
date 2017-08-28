@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Run atom-karma-test-runner",
+        "label": "Run Karma Test Runner",
         "command": "atom-karma-test-runner:run"
       }
     ]
