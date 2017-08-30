@@ -1,4 +1,4 @@
-# Atom Karma test Runner
+# Atom Karma Test Runner
 
 Run karma tests directly from Atom IDE. No additional server or setup needed.
 
