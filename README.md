@@ -7,7 +7,7 @@ Run karma tests directly from Atom IDE. No additional server or setup needed.
 ## Package settings:
 - `nodeBinaryPath` Path to the node executable. Should match the result of ```which node``` in your terminal. Defaults to */usr/local/bin/node*.
 -  `karmaConfigFileName` Karma configuration file. Defaults to *karma.conf.js*.
-- `karmaReporter` Karma reporter. The plugin looks best with ![karma-mocha-reporter](https://www.npmjs.com/package/karma-mocha-reporter). Just make sure it is installed for the package you are executing tests for.
+- `karmaReporter` Karma reporter. The plugin looks best with [karma-mocha-reporter](https://www.npmjs.com/package/karma-mocha-reporter). Just make sure it is installed for the package you are executing tests for.
 - `env` Any additional environment variables.
 
 ## Running:
