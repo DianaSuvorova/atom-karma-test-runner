@@ -1,12 +1,14 @@
-.jasmine-test-runner {
-  max-height: 20rem;
-  overflow: auto;
+.karma-test-runner {
+  max-height: 23rem;
   text-shadow: none;
+  background-color: #333;
+  color: #aaa;
   .heading {
     font-size: 14px;
     font-weight: bold;
     padding: 0 5px;
-    height: 25px;
+    height: 3rem;
+    width: 100%;
     display: flex;
     align-items: center;
     align-content: space-between;
@@ -25,6 +27,14 @@
     }
     span.spec {
       flex: 1 1 auto;
+    }
+  }
+  .panel-body {
+    max-height: 20rem;
+    overflow: auto;
+    .results {
+      white-space: pre-wrap;
+      padding-left: 5px;
     }
   }
 }

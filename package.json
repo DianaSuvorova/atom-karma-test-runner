@@ -16,7 +16,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ansi-html-stream": "0.0.3"
+  },
   "devDependencies": {
     "eslint": "3.6.1"
   }
