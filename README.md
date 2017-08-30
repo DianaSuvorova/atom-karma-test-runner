@@ -2,7 +2,7 @@
 
 Run karma tests directly from Atom IDE. No additional server or setup needed.
 
-![preview](http://recordit.co/LJ2bbiXxQF)
+![preview](http://g.recordit.co/LJ2bbiXxQF.gif)
 
 ## Package settings:
 - `nodeBinaryPath` Path to the node executable. Should match the result of ```which node``` in your terminal. Defaults to */usr/local/bin/node*.
