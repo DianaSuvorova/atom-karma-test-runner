@@ -4,7 +4,8 @@
     "node": true,
     "commonjs": true,
     "es6": true,
-    "browser": true
+    "browser": true,
+    "jasmine": true
   },
   "parserOptions": {
     "sourceType": "module"
