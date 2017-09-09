@@ -1,7 +1,7 @@
 {
   "name": "atom-karma-test-runner",
   "main": "./lib/atom-karma-test-runner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run karma tests from atom. No server required.",
   "keywords": [
     "karma",
