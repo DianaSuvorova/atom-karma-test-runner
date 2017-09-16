@@ -1,8 +1,10 @@
+const defaultPath = 'specs/*.js'
+const path = (process.argv[process.argv.length - 1] || defaultPath);
 module.exports = (config) => {
   config.set({
     frameworks: ['jasmine'],
     colors: true,
-    files: ['specs/spec.js'],
+    files: [path],
     reporters: ['mocha'],
     logLevel: config.LOG_INFO,
     concurrency: Infinity,

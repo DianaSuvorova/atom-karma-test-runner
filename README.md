@@ -16,11 +16,11 @@ Run karma tests directly from Atom IDE. No additional server or setup needed.
 Open a test file  and `Packages` -> `atom-karma-test-runner` -> `run` from atom menu.
 This plugin looks for the closest `package.json` to the current file to get karma config file and `karma` executable.
 
-## Running plugin for a single file.
+## Configuring plugin to execute a single file:
 By default every singe test that is karma has been configured for will be executed. To run only a single file that is currently active in atom set  `runActiveFileOnly` to `true` in the package settings and update `karma.conf.js` or karma configuration file as follows:
 
 ```
-const defaultPath = 'lib/**/test/*.js' // the path you would normally cofigure karma
+const defaultPath = 'lib/**/test/*.js' // the path you would normally configure karma
 const path = (process.argv[process.argv.length - 1] || defaultPath);
 module.exports = (config) => {
   config.set({
@@ -30,7 +30,7 @@ module.exports = (config) => {
   })
 };
 ```
-
+Please see complete example: [karma.conf.js](spec/testpackage/karma.conf.js)
 
 Karma does not provide a standard documented way to run a single test or a file.
 Few options are available:
