@@ -1,4 +1,4 @@
-language: node_js,
+language: objective_c,
 cache:
   directories:
     - node_modules
