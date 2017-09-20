@@ -1,7 +1,7 @@
 {
   "name": "atom-karma-test-runner",
   "main": "./lib/atom-karma-test-runner",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "Run karma tests from atom. No server required.",
   "keywords": [
     "karma",
@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "eslint": "3.6.1",
-    "last-release-apm": "^1.3.1"
+    "last-release-apm": "^1.3.1",
+    "semantic-release": "^8.0.0"
   },
   "scripts": {
     "pregit:push": "git commit -am \"Prepare $npm_package_version release\"",
