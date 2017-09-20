@@ -4,8 +4,7 @@ cache:
     - node_modules
 notifications:
   email: false
-node_js:
-  - '8'
+node_js: '8'
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
 before_script:
   - npm prune
